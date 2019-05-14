@@ -10,6 +10,13 @@ class Person < ApplicationRecord
     "#{self.first_name} #{self.last_name}"
   end
 
+  # def alive
+  #   if alive == true
+  #     "#{self.first_name} is living!"
+  #   else
+  #     "#{self.first_name} is dead."
+  #   end
+  # end
 
   # <% @people.each do |person| %>
   #   <h1> <%= person.first_name %> <%= person.last_name %> </h1>
